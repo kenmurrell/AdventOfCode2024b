@@ -14,7 +14,7 @@ func TestPartOne(t *testing.T) {
 
 func TestPartTwo(t *testing.T) {
 	ansTest := 6
-	rTest := Part2("test.txt")
+	rTest, _ := Part2("test.txt")
 	if rTest != ansTest {
 		t.Errorf("Got %d; want %d", rTest, ansTest)
 	}
