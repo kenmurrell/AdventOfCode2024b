@@ -13,7 +13,7 @@ func TestPartOne(t *testing.T) {
 func TestPartTwo(t *testing.T) {
 	ansTest := 11387
 	rTest := Part2("test.txt")
-	if rTest != ansTest {
+	if int(rTest) != ansTest {
 		t.Errorf("Got %d; want %d", rTest, ansTest)
 	}
 }
